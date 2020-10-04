@@ -9,11 +9,32 @@
     "type": "git",
     "url": "git+https://github.com/connorrose/fullstack-React-template.git"
   },
-  "keywords": ["web-dev", "starter", "template", "react", "node", "express", "webpack", "eslint", "prettier"],
+  "keywords": [
+    "web-dev",
+    "starter",
+    "template",
+    "react",
+    "node",
+    "express",
+    "webpack",
+    "eslint",
+    "prettier"
+  ],
   "author": "Connor Rose Delisle",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/connorrose/fullstack-React-template/issues"
   },
-  "homepage": "https://github.com/connorrose/fullstack-React-template#readme"
+  "homepage": "https://github.com/connorrose/fullstack-React-template#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "prettier": "npm:@btmills/prettier@^2.1.2"
+  }
 }
