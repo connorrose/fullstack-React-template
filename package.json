@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-react-template",
+  "version": "0.1.0",
+  "description": "Fullstack starter template for vanilla React app with Node/Express server",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorrose/fullstack-React-template.git"
+  },
+  "keywords": ["web-dev", "starter", "template", "react", "node", "express", "webpack", "eslint", "prettier"],
+  "author": "Connor Rose Delisle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connorrose/fullstack-React-template/issues"
+  },
+  "homepage": "https://github.com/connorrose/fullstack-React-template#readme"
+}
