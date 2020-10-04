@@ -31,6 +31,7 @@
       "single",
       { "avoidEscape": true, "allowTemplateLiterals": false }
     ],
+    "import/prefer-default-export": "off",
     "react/function-component-definition": [
       "error",
       {
