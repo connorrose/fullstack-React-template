@@ -16,7 +16,7 @@ export const TestButton = (props) => {
 
   return (
     <button type="button" onClick={handleClick}>
-      ping server api
+      <strong>ping server api</strong>
     </button>
   );
 };

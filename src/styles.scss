@@ -1,0 +1,34 @@
+$primary-color: darkslategrey;
+$secondary-color: maroon;
+$tertiary-color: lightsteelblue;
+
+body {
+  background-color: $tertiary-color;
+  color: $primary-color;
+  font-family: sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: $secondary-color;
+  }
+
+  button {
+    background-color: $secondary-color;
+    color: $tertiary-color;
+    margin: 1rem;
+  }
+
+  .bad-alert {
+    background-color: red;
+  }
+
+  .good-alert {
+    background-color: mediumseagreen;
+  }
+}

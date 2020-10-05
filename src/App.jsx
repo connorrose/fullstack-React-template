@@ -9,8 +9,16 @@ const App = () => {
   return (
     <>
       <h1>Fullstack React Template</h1>
-      <TestButton setClicked={setClicked} setTestSuccess={setTestSuccess} />
-      {clicked && <p>{`test ${testSuccess ? 'succeeded' : 'failed'}`}</p>}
+      <TestButton
+        setClicked={setClicked}
+        setTestSuccess={setTestSuccess}
+        testSuccess={testSuccess}
+      />
+      {clicked && (
+        <span className={testSuccess ? 'good-alert' : 'bad-alert'}>
+          {`test ${testSuccess ? 'succeeded' : 'failed'}`}
+        </span>
+      )}
     </>
   );
 };
