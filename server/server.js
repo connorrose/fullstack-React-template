@@ -1,5 +1,6 @@
 const path = require('path');
 const express = require('express');
+const compression = require('compression');
 
 const apiRouter = require('./routes/apiRouter');
 
@@ -11,6 +12,7 @@ const PORT = process.env.PORT || 3000;
 /* ----- PARSE REQUESTS ----- */
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(compression());
 
 /* ----- STATIC ASSETS ----- */
 app.use('/', express.static(path.resolve(__dirname, '../dist')));
